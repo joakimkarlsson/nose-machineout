@@ -59,6 +59,11 @@ class NoseMachineReadableOutput(Plugin):
         if os.path.basename(fname).find('test') >= 0:
             score += 2
 
+        # Being a spec file for describe-it
+        if os.path.basename(fname).find('spec.py') >= 0:
+            score += 2
+
+
         # The check for the `assert' prefix allows the user to extend
         # unittest.TestCase with custom assert-methods, while
         # machineout still returns the most useful error line number.

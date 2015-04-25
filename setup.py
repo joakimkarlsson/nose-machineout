@@ -19,7 +19,7 @@ setup(
         "nose>=0.10",
     ],
     license="BSD",
-    py_modules=['machineout', 'test_machineout'],
+    py_modules=['machineout'],
     entry_points = {
         'nose.plugins.0.10': [
             'machineout = machineout:NoseMachineReadableOutput'
