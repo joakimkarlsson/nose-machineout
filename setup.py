@@ -10,7 +10,7 @@ from setuptools import setup
 
 setup(
     name="nose_machineout",
-    version="0.3-rc1",
+    version="0.4-describeit",
     description=__doc__.replace('\n', ' ').strip(),
     author="Mike Crute",
     author_email="mcrute@gmail.com",
